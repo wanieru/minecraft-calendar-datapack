@@ -1,0 +1,6 @@
+{
+  "values":[
+    "wanieru_calendar:update_calendar",
+    "wanieru_calendar:if_daybreak"
+  ]
+}

@@ -1,0 +1,3 @@
+function wanieru_calendar:if_first_of_year
+function wanieru_calendar:if_first_of_month
+function wanieru_calendar:announce_day

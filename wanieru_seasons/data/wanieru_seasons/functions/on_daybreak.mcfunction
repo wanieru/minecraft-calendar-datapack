@@ -1,0 +1,16 @@
+execute if score #month wanieru_calendar matches 0 run function wanieru_seasons:month_0
+execute if score #month wanieru_calendar matches 1 run function wanieru_seasons:month_1
+execute if score #month wanieru_calendar matches 2 run function wanieru_seasons:month_2
+execute if score #month wanieru_calendar matches 3 run function wanieru_seasons:month_3
+execute if score #month wanieru_calendar matches 4 run function wanieru_seasons:month_4
+execute if score #month wanieru_calendar matches 5 run function wanieru_seasons:month_5
+execute if score #month wanieru_calendar matches 6 run function wanieru_seasons:month_6
+execute if score #month wanieru_calendar matches 7 run function wanieru_seasons:month_7
+execute if score #month wanieru_calendar matches 8 run function wanieru_seasons:month_8
+execute if score #month wanieru_calendar matches 9 run function wanieru_seasons:month_9
+execute if score #month wanieru_calendar matches 10 run function wanieru_seasons:month_10
+execute if score #month wanieru_calendar matches 11 run function wanieru_seasons:month_11
+execute if score #month wanieru_calendar matches 12 run function wanieru_seasons:month_12
+execute if score #month wanieru_calendar matches 13 run function wanieru_seasons:month_13
+execute if score #month wanieru_calendar matches 14 run function wanieru_seasons:month_14
+execute if score #month wanieru_calendar matches 15 run function wanieru_seasons:month_15
