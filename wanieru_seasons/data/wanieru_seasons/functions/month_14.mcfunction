@@ -1,4 +1,3 @@
-execute if score #day wanieru_calendar matches 0 run function wanieru_seasons:snow
 execute if score #day wanieru_calendar matches 1 run function wanieru_seasons:snow
 execute if score #day wanieru_calendar matches 2 run function wanieru_seasons:snow
 execute if score #day wanieru_calendar matches 3 run function wanieru_seasons:snow
@@ -28,5 +27,6 @@ execute if score #day wanieru_calendar matches 26 run function wanieru_seasons:s
 execute if score #day wanieru_calendar matches 27 run function wanieru_seasons:snow
 execute if score #day wanieru_calendar matches 28 run function wanieru_seasons:snow
 execute if score #day wanieru_calendar matches 29 run function wanieru_seasons:snow
-execute if score #day wanieru_calendar matches 30 run function wanieru_seasons:snow
-execute if score #day wanieru_calendar matches 31 run function wanieru_seasons:snow
+execute if score #day wanieru_calendar matches 40 run function wanieru_seasons:snow
+execute if score #day wanieru_calendar matches 41 run function wanieru_seasons:snow
+execute if score #day wanieru_calendar matches 42 run function wanieru_seasons:snow

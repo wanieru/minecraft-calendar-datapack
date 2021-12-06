@@ -11,3 +11,5 @@ scoreboard players operation #month wanieru_calendar %= #months_in_year wanieru_
 scoreboard players operation #year wanieru_calendar = #days wanieru_calendar
 scoreboard players operation #year wanieru_calendar /= #days_in_month wanieru_calendar
 scoreboard players operation #year wanieru_calendar /= #months_in_year wanieru_calendar
+
+scoreboard players operation #day wanieru_calendar += #1 wanieru_constants
