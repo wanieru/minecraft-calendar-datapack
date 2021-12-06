@@ -1,6 +1,6 @@
 {
   "pack": {
     "description": "Contains the functions to control the weather based on the month of the calendar datapack.",
-    "pack_format": 7
+    "pack_format": 8
   }
 }
