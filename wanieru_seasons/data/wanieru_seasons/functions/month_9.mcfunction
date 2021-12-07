@@ -27,6 +27,6 @@ execute if score #day wanieru_calendar matches 26 run function wanieru_seasons:r
 execute if score #day wanieru_calendar matches 27 run function wanieru_seasons:rain
 execute if score #day wanieru_calendar matches 28 run function wanieru_seasons:rain
 execute if score #day wanieru_calendar matches 29 run function wanieru_seasons:clear
-execute if score #day wanieru_calendar matches 40 run function wanieru_seasons:rain
-execute if score #day wanieru_calendar matches 41 run function wanieru_seasons:clear
-execute if score #day wanieru_calendar matches 42 run function wanieru_seasons:clear
+execute if score #day wanieru_calendar matches 30 run function wanieru_seasons:rain
+execute if score #day wanieru_calendar matches 31 run function wanieru_seasons:clear
+execute if score #day wanieru_calendar matches 32 run function wanieru_seasons:clear
