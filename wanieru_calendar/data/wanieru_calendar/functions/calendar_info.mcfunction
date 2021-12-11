@@ -1,6 +1,5 @@
-tellraw @s [{"text":"\n"}]
-tellraw @s [{"text":"It's been ","italic":true,"color":"gray"}, {"score":{"name":"#days","objective":"wanieru_calendar"},"italic":true,"color":"gray"}, {"text":" days since the beginning.","italic":true,"color":"gray"}]
-tellraw @s [{"text":"The year has 512 days, 32 in each month.","italic":true,"color":"gray"}]
+tellraw @s [{"text":"It's been ","bold":true,"color":"white"}, {"score":{"name":"#days","objective":"wanieru_calendar"},"bold":true,"color":"white"}, {"text":" days since the beginning.","bold":true,"color":"white"}]
+tellraw @s [{"text":"The year has 512 days, 32 in each month.","bold":true,"color":"white"}]
 
 tellraw @s {"text":"\nThe Season of the Land (Sunny, with some rain)","italics":true,"color":"gray"}
 execute if score #month wanieru_calendar matches 0 run tellraw @s {"text":"1. The Month of the Rabbit","italic":true,"color":"yellow"}
@@ -39,4 +38,4 @@ execute unless score #month wanieru_calendar matches 14 run tellraw @s {"text":"
 execute if score #month wanieru_calendar matches 15 run tellraw @s {"text":"16. The Month of the Wither","italic":true,"color":"yellow"}
 execute unless score #month wanieru_calendar matches 15 run tellraw @s {"text":"16. The Month of the Wither","italic":true,"color":"white"}
 
-tellraw @s [{"text":"\n"}]
+gamerule sendCommandFeedback false

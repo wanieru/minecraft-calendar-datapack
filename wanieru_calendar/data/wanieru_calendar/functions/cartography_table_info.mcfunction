@@ -1,0 +1,3 @@
+execute as @a[tag=!WanieruOnCartographyTable] as @s at @s if block ~ ~-0.1 ~ minecraft:cartography_table run function wanieru_calendar:calendar_info
+execute as @a[tag=!WanieruOnCartographyTable] as @s at @s if block ~ ~-0.1 ~ minecraft:cartography_table run tag @s add WanieruOnCartographyTable
+execute as @a[tag=WanieruOnCartographyTable] as @s at @s unless block ~ ~-0.1 ~ minecraft:cartography_table run tag @s remove WanieruOnCartographyTable
