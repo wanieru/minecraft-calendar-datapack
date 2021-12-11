@@ -6,3 +6,5 @@ scoreboard players set #days_in_month wanieru_calendar 32
 
 scoreboard objectives add wanieru_constants dummy
 scoreboard players set #1 wanieru_constants 1
+
+scoreboard objectives add wanieru_joined_game minecraft.custom:minecraft.leave_game
