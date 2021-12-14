@@ -39,4 +39,7 @@ execute unless score #month wanieru_calendar matches 14 run tellraw @s [{"text":
 execute if score #month wanieru_calendar matches 15 run tellraw @s [{"text":"16. The Month of the Wither (Day ","italic":true,"color":"yellow"}, {"score":{"name":"#day","objective":"wanieru_calendar"},"italic":true,"color":"yellow"}, {"text":")","italic":true,"color":"yellow"}]
 execute unless score #month wanieru_calendar matches 15 run tellraw @s [{"text":"16. The Month of the Wither","italic":true,"color":"white"}]
 
+scoreboard players set @s wanieru_show_calendar_info 0
+scoreboard players enable @s wanieru_show_calendar_info
+
 gamerule sendCommandFeedback false

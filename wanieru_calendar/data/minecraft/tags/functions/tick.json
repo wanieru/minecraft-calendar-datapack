@@ -4,6 +4,7 @@
     "wanieru_calendar:cartography_table_info",
     "wanieru_calendar:update_calendar",
     "wanieru_calendar:if_daybreak",
-    "wanieru_calendar:check_join"
+    "wanieru_calendar:check_join",
+    "wanieru_calendar:update_calendar_info_trigger"
   ]
 }
