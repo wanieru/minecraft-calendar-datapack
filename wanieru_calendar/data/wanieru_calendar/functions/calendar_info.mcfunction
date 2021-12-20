@@ -1,5 +1,5 @@
 tellraw @s [{"text":"It's been ","bold":true,"color":"white"}, {"score":{"name":"#days","objective":"wanieru_calendar"},"bold":true,"color":"white"}, {"text":" days since the beginning.","bold":true,"color":"white"}]
-tellraw @s [{"text":"It's currently year ","bold":true,"color":"white"}, {"score":{"name":"#year","objective":"wanieru_calendar"},"bold":true,"color":"white"}, {"text":", Cthonic Era (CE)","bold":true,"color":"white"}]
+tellraw @s [{"text":"It's currently year ","bold":true,"color":"white"}, {"score":{"name":"#year","objective":"wanieru_calendar"},"bold":true,"color":"white"}, {"text":", Chthonic Era (CE)","bold":true,"color":"white"}]
 tellraw @s [{"text":"The year has 512 days, 32 in each month.","bold":true,"color":"white"}]
 
 tellraw @s {"text":"\nThe Season of the Land (Sunny, with some rain)","italic":true,"color":"gray"}
