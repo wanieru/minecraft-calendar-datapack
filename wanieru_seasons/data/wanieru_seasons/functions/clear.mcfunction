@@ -1,3 +1,3 @@
 weather clear
-scoreboard players set #temperature wanieru_snow 1
+function wanieru_snow:weather_melt
 tellraw @a {"text":"Today's forecast: Sunny.","italic":true,"color":"gray"}

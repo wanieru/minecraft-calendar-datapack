@@ -1,0 +1,7 @@
+function wanieru_snow:snow_golems_kill
+
+execute as @r at @s run summon minecraft:snow_golem ~ ~ ~ {Invulnerable:1,PersistenceRequired:1,Silent:1,NoAI:1,Tags:["snow_fall_golem"],ActiveEffects:[{Id:6,Amplifier:1,Duration:999999},{Id:10,Amplifier:1,Duration:999999},{Id:14,Amplifier:0,Duration:999999}]}
+execute as @r at @s run summon minecraft:snow_golem ~ ~ ~ {Invulnerable:1,PersistenceRequired:1,Silent:1,NoAI:1,Tags:["snow_fall_golem"],ActiveEffects:[{Id:6,Amplifier:1,Duration:999999},{Id:10,Amplifier:1,Duration:999999},{Id:14,Amplifier:0,Duration:999999}]}
+execute as @r at @s run summon minecraft:snow_golem ~ ~ ~ {Invulnerable:1,PersistenceRequired:1,Silent:1,NoAI:1,Tags:["snow_fall_golem"],ActiveEffects:[{Id:6,Amplifier:1,Duration:999999},{Id:10,Amplifier:1,Duration:999999},{Id:14,Amplifier:0,Duration:999999}]}
+execute as @r at @s run summon minecraft:snow_golem ~ ~ ~ {Invulnerable:1,PersistenceRequired:1,Silent:1,NoAI:1,Tags:["snow_fall_golem"],ActiveEffects:[{Id:6,Amplifier:1,Duration:999999},{Id:10,Amplifier:1,Duration:999999},{Id:14,Amplifier:0,Duration:999999}]}
+execute as @r at @s run summon minecraft:snow_golem ~ ~ ~ {Invulnerable:1,PersistenceRequired:1,Silent:1,NoAI:1,Tags:["snow_fall_golem"],ActiveEffects:[{Id:6,Amplifier:1,Duration:999999},{Id:10,Amplifier:1,Duration:999999},{Id:14,Amplifier:0,Duration:999999}]}

@@ -1,0 +1,3 @@
+scoreboard players set #temperature wanieru_snow 0
+function wanieru_snow:snow_golems_kill
+function wanieru_snow:melt_marker_kill

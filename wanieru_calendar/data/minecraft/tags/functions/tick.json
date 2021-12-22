@@ -1,7 +1,6 @@
 {
   "values":[
     "wanieru_calendar:reset_command_feedback",
-    "wanieru_calendar:cartography_table_info",
     "wanieru_calendar:update_calendar",
     "wanieru_calendar:if_daybreak",
     "wanieru_calendar:check_join",

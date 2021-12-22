@@ -2,6 +2,9 @@ tellraw @s [{"text":"It's been ","bold":true,"color":"white"}, {"score":{"name":
 tellraw @s [{"text":"It's currently year ","bold":true,"color":"white"}, {"score":{"name":"#year","objective":"wanieru_calendar"},"bold":true,"color":"white"}, {"text":", Chthonic Era (CE)","bold":true,"color":"white"}]
 tellraw @s [{"text":"The year has 512 days, 32 in each month.","bold":true,"color":"white"}]
 
+execute if score #do_snow_fall wanieru_snow matches 1.. run tellraw @s [{"text":"Snow fall is ON.","italic":true,"color":"white"}]
+execute if score #do_snow_fall wanieru_snow matches ..0 run tellraw @s [{"text":"Snow fall is OFF.","italic":true,"color":"white"}]
+
 tellraw @s {"text":"\nThe Season of the Land (Sunny, with some rain)","italic":true,"color":"gray"}
 execute if score #month wanieru_calendar matches 0 run tellraw @s [{"text":"1. The Month of the Rabbit (Day  (Day ","italic":true,"color":"yellow"}, {"score":{"name":"#day","objective":"wanieru_calendar"},"italic":true,"color":"yellow"}, {"text":")","italic":true,"color":"yellow"}]
 execute unless score #month wanieru_calendar matches 0 run tellraw @s [{"text":"1. The Month of the Rabbit","italic":true,"color":"white"}]

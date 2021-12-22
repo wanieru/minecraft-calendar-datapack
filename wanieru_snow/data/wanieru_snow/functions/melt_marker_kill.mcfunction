@@ -1,0 +1,1 @@
+kill @e[tag=melt_marker]
