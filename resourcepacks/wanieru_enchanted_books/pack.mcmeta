@@ -1,0 +1,6 @@
+{
+   "pack": {
+      "pack_format": 8,
+      "description": "Indicates type and level of enchantment on enchanted books. Requires optifine."
+   }
+}
