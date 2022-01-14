@@ -1,0 +1,6 @@
+{
+  "pack": {
+    "description": "Makes player names gray when AFK for 5 minutes - and pauses daylight cycle if all players are afk. Based on vanilla tweaks afk display.",
+    "pack_format": 8
+  }
+}
